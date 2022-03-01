@@ -40,8 +40,11 @@ go to **https://<your instance public ip4 >:8888**
 
 ## ParlAI
 A unified platform for sharing, training and evaluating dialogue models across many tasks. 
-
+[alt text](https://github.com/kishorkuttan/language-model-training-on-habana/blob/main/parlai.png)
 # Dataset Used For Fine-Tuning Reference
 1. BlenderBot 90 M.[link](https://huggingface.co/facebook/blenderbot-90M)
 2. Empathetic.[link](https://arxiv.org/abs/1811.00207)
 3. Paper.[link](https://arxiv.org/abs/1811.00207) 
+# TO DO
+1. building an API for deployment.
+[alt text](https://github.com/kishorkuttan/language-model-training-on-habana/blob/main/diagram.png)
