@@ -22,7 +22,7 @@ go to **https://<your instance public ip4 >:8888**
 # Benchmarking Habana Gaudi Accelerator Vs Tesla p100 from Colab
 <p float="left">
   <img src="habana.png" width="480" />
-  <img src="colab-1.png" width="480" /> 
+  <img src="colab-2.png" width="480" /> 
 
 </p>
 
