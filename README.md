@@ -11,7 +11,7 @@ Sometimes all they need is someone to talk, someone to make them feel better, an
 ```sh
 sudo pip install jupyter notebook
 ```
-4.clone this repository. After setting the AWS inbound rule opened to 8888 port run
+4.clone this repository. After setting the AWS inbound rule, opened to 8888 port run
 ```sh
 git clone https://github.com/kishorkuttan/language-model-training-on-habana.git
 cd language-model-training-on-habana
