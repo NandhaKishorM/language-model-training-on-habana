@@ -34,8 +34,11 @@ Open-Domain chatbots are the need of the hour. Most of the enterprise chatbots a
 BST mainly focuses on understanding the user's emotions, knowledge and switching tasks according to the conversation of the user. Like Serious to funny. Generation Strategy is to minimize perplexity during training the neural network. It measures how well the model can predict or generate the next words. Short text can be considered dull while long text can be considered as an arrogant response. An optimal beam length is chosen and the value is between 1-3.
 ## Transformer architectures
 Three types of transformer-based architectures.
+
 **1. Retriever** - Find the next best dialogue. Eg: Poly-Encoder
+
 **2. Generative** - A seq2seq architecture is used for generating responses instead of picking from a fixed set.
+
 **3. Retrieve-and-refine** - A new approach for reading or accessing external knowledge other than what is embedded in our model. it is also sub-categorized as 
 
 1. dialogue retrieval
