@@ -19,7 +19,7 @@ sudo jupyter notebook --ip=* --allow-root
 ```
 go to **https://<your instance public ip4 >:8888**
 5. run train.ipynb
-# Benchmarking Habana Gaudi Accelerator Vs Tesla p100 from Colab
+# Benchmarking Habana Gaudi Accelerator Vs Tesla P100 from Colab
 ## Training
 
 <p float="left">
@@ -38,3 +38,10 @@ go to **https://<your instance public ip4 >:8888**
 
 **After benchmarking we closely monitored the performance and we got far better performace of Habana Gaudi AWS instance compared to Colab Pro.**
 
+## ParlAI
+A unified platform for sharing, training and evaluating dialogue models across many tasks. 
+
+# Dataset Used For Fine-Tuning Reference
+1. BlenderBot 90 M.[link](https://huggingface.co/facebook/blenderbot-90M)
+2. Empathetic.[link](https://arxiv.org/abs/1811.00207)
+3. Paper.[link](https://arxiv.org/abs/1811.00207) 
