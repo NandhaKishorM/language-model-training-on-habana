@@ -18,6 +18,7 @@ cd language-model-training-on-habana
 sudo jupyter notebook --ip=* --allow-root
 ```
 go to **https://<your instance public ip4 >:8888**
+
 5. run train.ipynb
 # Language Model Architecture
 Open-Domain chatbots are the need of the hour. Most of the enterprise chatbots are closed domain chatbots and are not capable of understanding deep human conversational context and don't have any persona. The main difference between a closed domain and an open domain is the understanding of complex sentences and long conversational engagement. The framework is called Blender. It has **3 distinctive features.**
