@@ -21,7 +21,7 @@ go to **https://your_instance_public_ip4 :8888**
 
 5. run train.ipynb
 
-## Custom dataset
+## Custom Dataset
 ```sh
 
 text:I am feeling really sad?   labels:why are you feeling sad?
