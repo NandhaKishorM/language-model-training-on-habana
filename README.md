@@ -19,6 +19,22 @@ sudo jupyter notebook --ip=* --allow-root
 ```
 go to **https://<your instance public ip4 >:8888**
 5. run train.ipynb
+# Language Model Architecture
+Open-Domain chatbots are the need of the hour. Most of the enterprise chatbots are closed domain chatbots and are not capable of understanding deep human conversational context and does't have any persona. The main difference between a closed domain and an open-domain is the understanding of the complex sentenses and long conversational engagement. The framework is called **Blender**. It has **3 distinctive features.**
+1. Consistent persona throughout the conversation.
+2. Empathetic conversation
+3. Factual information. Eg: Wikipedia
+**Recipes of an open-domain chatbot**
+1. Blended Skill Talk(BST)
+2. Generation Strategy
+BST mainly focus on the understanding the users emotions, knowledge and switching tasks according to the conversation of the user. Like Serious to funny.
+Generation Strategy is to **minimize perplexity** during training the neural network. It measures how well the model can predict or generate next words. Short text can be considered as dull while long text can be considered as arrogant response. An optimal beam length is choses and the value is in between 1-3.
+**Transformer architectures**
+Three types of transformer based architecures.
+1. Retriever - Find the next best dialogue. Eg: Poly-Encoder
+2. Generative - A seq2seq architecture used for generating response instead of picking from a fixed set.
+3. Retrieve-and-refine -  A new approach for read or access external knowledge other than what is embedded in our model. it is also sub-categorized as **1. dialogue retrieval and 2. knowledge retrieval**. The response will be retrieved for utterance based on the retrieval mechanism and then passed the input sequence to the generator by adding special separator token in the sequence. This is the flow of **Dialogue retrieval.** Generators are capable of producing vibrant language than high probability utterance. **Knowledge retrieval**, it retrieves from the large knowledge base. They used the proposed model Wizard of Wikipedia task.
+
 # Benchmarking Habana Gaudi Accelerator Vs Tesla P100 from Colab
 ## Training
 
@@ -48,3 +64,4 @@ A unified platform for sharing, training and evaluating dialogue models across m
 # TO DO
 1. The trained language model can be deployed as an API. Which means we can even built a mental health helpline number with our trained conversational AI as backend to help them feel connected.
 ![alt text](https://github.com/kishorkuttan/language-model-training-on-habana/blob/main/diagram.png)
+
