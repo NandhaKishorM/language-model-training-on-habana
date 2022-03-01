@@ -35,4 +35,5 @@ go to **https://<your instance public ip4 >:8888**
 
 </p>
 
+**After benchmarking we closely monitored the performance and we got far better performace of Habana Gaudi AWS instance compared to Colab Pro.**
 
