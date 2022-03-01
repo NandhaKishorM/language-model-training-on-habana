@@ -17,7 +17,7 @@ git clone https://github.com/kishorkuttan/language-model-training-on-habana.git
 cd language-model-training-on-habana
 sudo jupyter notebook --ip=* --allow-root
 ```
-go to **https://your instance public ip4 :8888**
+go to **https://your_instance_public_ip4 :8888**
 
 5. run train.ipynb
 # Language Model Architecture
