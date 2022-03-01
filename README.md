@@ -21,11 +21,13 @@ go to **https://<your instance public ip4 >:8888**
 5. run train.ipynb
 # Benchmarking Habana Gaudi Accelerator Vs Tesla p100 from Colab
 ## Training
+
 <p float="left">
   <img src="habana_interface.png" width="480" />
   <img src="colab_interface.png" width="480" /> 
 
 </p>
+
 ## Usage
 <p float="left">
   <img src="habana.png" width="480" />
