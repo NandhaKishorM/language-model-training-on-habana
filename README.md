@@ -20,6 +20,19 @@ sudo jupyter notebook --ip=* --allow-root
 go to **https://your_instance_public_ip4 :8888**
 
 5. run train.ipynb
+
+## Custom dataset
+```sh
+
+text:I am feeling really sad?   labels:why are you feeling sad?
+text:A war is going on here in Ukarin?   labels:yes, I know. Russia and Ukraine have had no formal diplomatic relations since 24 February 2022. The Russian Federation and Ukraine are currently in a state of war: the Russo-Ukrainian War began in 2014 following the Russian annexation of Crimea from Ukraine. In February 2022, Russia invaded Ukraine across a broad front.
+text:Indeed. When will it end  labels:Hope it end soon
+text:I am feeling really scared   labels:Don't be scared. Be strong and be brave
+text:How can I feel secured, feeling so insecured now   labels:I am here for you. Don't feel scared. We will get through it.
+text:I am in a bunker now   labels:That is scary. But things will be better soon. Don't lose hope.
+text:thank you   labels:you are welcome. Hope everything works fine.
+text:bye   labels:bye.   episode_done=True
+```
 # Language Model Architecture
 Open-Domain chatbots are the need of the hour. Most of the enterprise chatbots are closed domain chatbots and are not capable of understanding deep human conversational context and don't have any persona. The main difference between a closed domain and an open domain is the understanding of complex sentences and long conversational engagement. The framework is called Blender. It has **3 distinctive features.**
 
