@@ -24,12 +24,17 @@ Open-Domain chatbots are the need of the hour. Most of the enterprise chatbots a
 1. Consistent persona throughout the conversation.
 2. Empathetic conversation
 3. Factual information. Eg: Wikipedia
+
 **Recipes of an open-domain chatbot**
+
 1. Blended Skill Talk(BST)
 2. Generation Strategy
+
 BST mainly focus on the understanding the users emotions, knowledge and switching tasks according to the conversation of the user. Like Serious to funny.
 Generation Strategy is to **minimize perplexity** during training the neural network. It measures how well the model can predict or generate next words. Short text can be considered as dull while long text can be considered as arrogant response. An optimal beam length is choses and the value is in between 1-3.
+
 **Transformer architectures**
+
 Three types of transformer based architecures.
 1. Retriever - Find the next best dialogue. Eg: Poly-Encoder
 2. Generative - A seq2seq architecture used for generating response instead of picking from a fixed set.
