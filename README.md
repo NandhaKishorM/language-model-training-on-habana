@@ -50,7 +50,7 @@ Three types of transformer-based architectures.
 The response will be retrieved for utterance based on the retrieval mechanism and then passed the input sequence to the generator by adding a special separator token in the sequence. This is the flow of **Dialogue retrieval**. Generators are more capable of producing vibrant language than high probability utterances. **Knowledge retrieval**, retrieves from the large knowledge base. They used the proposed model Wizard of Wikipedia task.
 
 
-# Benchmarking Habana Gaudi Accelerator Vs Tesla P100 from Colab
+# Benchmarking Habana Gaudi Accelerator Vs Tesla P100 from Google Colab
 ## Training
 
 <p float="left">
