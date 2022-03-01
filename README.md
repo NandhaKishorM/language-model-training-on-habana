@@ -46,5 +46,5 @@ A unified platform for sharing, training and evaluating dialogue models across m
 2. Empathetic.[link](https://arxiv.org/abs/1811.00207)
 3. Paper.[link](https://arxiv.org/abs/1811.00207) 
 # TO DO
-1. building an API for deployment.
+1. The trained language model can be deployed as an API. Which means we can even built a mental health helpline number with our trained conversational AI as backend to help them feel connected.
 ![alt text](https://github.com/kishorkuttan/language-model-training-on-habana/blob/main/diagram.png)
