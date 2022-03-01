@@ -1,5 +1,5 @@
 # language-model-training-on-habana
-Training a Million parameter language model on AWS Habana EC2 instance with Gaudi Accelerator to help people in a war zone to reduce their mental issues.
+Training Million parameter language model on AWS Habana EC2 instance with Gaudi Accelerator to help people in a war zone to reduce their mental issues.
 ## Inspiration
 Since Russia launched a full-scale military invasion into Ukraine on February 24, 2022, fighting has caused over one hundred civilian casualties and pushed tens of thousands of Ukrainians to flee to neighboring countries—including Poland.  During war, people can be exposed to many different traumatic events. That raises the chances of developing mental health problems—like post-traumatic stress disorder (PTSD), anxiety, and depression—and poorer life outcomes as adults.
 Sometimes all they need is someone to talk, someone to make them feel better, and someone to share their feelings. 
